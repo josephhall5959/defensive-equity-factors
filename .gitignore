@@ -1,0 +1,19 @@
+# OS / editor cruft
+.DS_Store
+
+# Regenerable data (rebuilt by `make all` from the Ken French library)
+data/raw/
+data/processed/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
